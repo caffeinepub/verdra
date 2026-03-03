@@ -41,10 +41,10 @@ function FloatingLeaves() {
           }}
         >
           <svg
+            aria-hidden="true"
             width={leaf.size}
             height={leaf.size * 1.4}
             viewBox="0 0 20 28"
-            aria-hidden="true"
             style={{
               opacity: leaf.opacity,
               transform: `rotate(${leaf.rotation}deg)`,

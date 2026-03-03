@@ -41,10 +41,10 @@ function FloatingLeaves() {
           }}
         >
           <svg
+            aria-hidden="true"
             width={leaf.size}
             height={leaf.size * 1.4}
             viewBox="0 0 20 28"
-            aria-hidden="true"
             style={{
               opacity: leaf.opacity,
               transform: `rotate(${leaf.rotation}deg)`,
@@ -107,7 +107,7 @@ export default function HeroSection() {
         style={{ transform: `translateY(${parallaxOffset}px) scale(1.1)` }}
       >
         <img
-          src="/assets/generated/hero-bg-lush-green.dim_1920x1080.jpg"
+          src="/assets/generated/verdra-hero-bg.dim_1920x1080.jpg"
           alt="Cinematic forest background"
           className="w-full h-full object-cover"
           style={{ filter: "brightness(0.45) saturate(1.2)" }}

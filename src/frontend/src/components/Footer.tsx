@@ -64,7 +64,6 @@ export default function Footer() {
               "Expansion Vision",
             ].map((link) => (
               <button
-                type="button"
                 key={link}
                 onClick={() => {
                   const id = link.toLowerCase().replace(/ /g, "-");
@@ -74,6 +73,7 @@ export default function Footer() {
                 }}
                 className="hover:text-verdra-leaf transition-colors duration-200"
                 style={{ color: "rgba(245,241,232,0.4)" }}
+                type="button"
                 onMouseEnter={(e) => {
                   e.currentTarget.style.color = "#4CAF50";
                 }}
