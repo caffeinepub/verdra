@@ -40,10 +40,9 @@ function BenefitCard({
   return (
     <div
       ref={ref}
-      className="reveal group glass-card rounded-2xl p-6 transition-all duration-400 cursor-default"
+      className={`reveal${isVisible ? " visible" : ""} group glass-card rounded-2xl p-6 transition-all duration-400 cursor-default`}
       style={{
         transitionDelay: `${index * 100}ms`,
-        ...(isVisible ? { opacity: 1, transform: "translateY(0)" } : {}),
       }}
       onMouseEnter={(e) => {
         (e.currentTarget as HTMLDivElement).style.transform =
@@ -54,9 +53,7 @@ function BenefitCard({
           "rgba(76,175,80,0.35)";
       }}
       onMouseLeave={(e) => {
-        (e.currentTarget as HTMLDivElement).style.transform = isVisible
-          ? "translateY(0)"
-          : "translateY(40px)";
+        (e.currentTarget as HTMLDivElement).style.transform = "translateY(0)";
         (e.currentTarget as HTMLDivElement).style.boxShadow = "";
         (e.currentTarget as HTMLDivElement).style.borderColor = "";
       }}

@@ -29,10 +29,9 @@ function ShowcaseCard({
   return (
     <div
       ref={ref}
-      className="reveal group relative overflow-hidden rounded-2xl cursor-pointer"
+      className={`reveal${isVisible ? " visible" : ""} group relative overflow-hidden rounded-2xl cursor-pointer`}
       style={{
         transitionDelay: `${index * 150}ms`,
-        ...(isVisible ? { opacity: 1, transform: "translateY(0)" } : {}),
         aspectRatio: "4/3",
       }}
     >

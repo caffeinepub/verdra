@@ -107,7 +107,7 @@ export default function HeroSection() {
         style={{ transform: `translateY(${parallaxOffset}px) scale(1.1)` }}
       >
         <img
-          src="/assets/generated/verdra-hero-bg.dim_1920x1080.jpg"
+          src="/assets/generated/hero-bg-lush-green.dim_1920x1080.jpg"
           alt="Cinematic forest background"
           className="w-full h-full object-cover"
           style={{ filter: "brightness(0.45) saturate(1.2)" }}

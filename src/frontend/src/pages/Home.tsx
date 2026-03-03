@@ -1,4 +1,3 @@
-import AboutVerdraSection from "../components/AboutVerdraSection";
 import BenefitsSection from "../components/BenefitsSection";
 import ContributeSection from "../components/ContributeSection";
 import ExpansionVisionSection from "../components/ExpansionVisionSection";
@@ -15,7 +14,6 @@ export default function Home() {
       <WhyVerdraExists />
       <ContributeSection />
       <LifeCycleSection />
-      <AboutVerdraSection />
       <BenefitsSection />
       <ExpansionVisionSection />
     </main>

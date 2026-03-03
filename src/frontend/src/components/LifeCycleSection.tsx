@@ -50,10 +50,9 @@ function StageCard({
   return (
     <div
       ref={ref}
-      className="reveal group flex flex-col items-center text-center"
+      className={`reveal${isVisible ? " visible" : ""} group flex flex-col items-center text-center`}
       style={{
         transitionDelay: `${index * 100}ms`,
-        ...(isVisible ? { opacity: 1, transform: "translateY(0)" } : {}),
       }}
     >
       {/* Image container */}
