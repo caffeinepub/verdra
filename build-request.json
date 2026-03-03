@@ -1,0 +1,112 @@
+{
+  "kind": "build_request",
+  "title": "Add 'Why VerdRa Exists' section between Home and Life Cycle",
+  "projectName": "VerdRa",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-14",
+      "text": "Create a new frontend component file `frontend/src/components/WhyVerdraExists.tsx` that implements the full 'Why VerdRa Exists' section with four visual blocks: (1) A bold centered headline 'Cities Are Growing. Nature Is Shrinking.' followed by a powerful short paragraph covering urban expansion, loss of shade, rising heat, pollution, and citizens lacking a structured platform; (2) An 'Our Purpose' sub-section using a split layout — the generated cinematic environmental image on one side and four bullet-style purpose statements on the other ('VerdRa exists to reconnect people with their streets.', 'To restore shade, beauty, and ecological balance.', 'To make urban greening a shared responsibility.', 'To turn pride into participation.'); (3) A 'More Than Just Planting Trees' block with three glassmorphism icon cards — Community Ownership ('Every tree connects a citizen to their city.'), Climate Responsibility ('Reducing heat and improving air quality.'), Legacy Creation ('Trees planted today will stand for decades.') — each with subtle hover lift animations; (4) A centered cinematic closing statement 'This is not a project. / This is a generational commitment.' with a stagger/reveal typography animation. The section background must feature a slow animated greenery gradient with soft light rays and floating leaf particle effects matching the existing HeroSection animation style. All scroll-triggered reveal animations must use the existing `useScrollReveal` hook. Apply the full VERDRA design system: deep forest green palette, Montserrat Bold/SemiBold headings, Poppins body text, glassmorphism panels with soft shadows and green glow highlights, and elegant spacing consistent with the rest of the site.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Why VerdRa Exists",
+          "Cities Are Growing. Nature Is Shrinking.",
+          "Our Purpose",
+          "More Than Just Planting Trees",
+          "This is not a project. This is a generational commitment."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Component file WhyVerdraExists.tsx exists in frontend/src/components/",
+        "Section opens with bold centered headline 'Cities Are Growing. Nature Is Shrinking.'",
+        "A short paragraph below the headline communicates urban expansion, shade loss, rising heat, pollution, and lack of platform",
+        "'Our Purpose' sub-section uses a split layout with the generated image on one side and four purpose statements on the other",
+        "'More Than Just Planting Trees' block renders three icon cards: Community Ownership, Climate Responsibility, Legacy Creation",
+        "Each icon card has a hover lift animation (e.g., translateY + shadow increase on hover)",
+        "Closing statement 'This is not a project. / This is a generational commitment.' uses cinematic stagger typography animation",
+        "Section background includes animated greenery gradient with soft light rays and floating leaf particles",
+        "All text blocks animate in on scroll using useScrollReveal",
+        "Design matches VERDRA brand: deep forest green palette, glassmorphism panels, Montserrat headings, Poppins body",
+        "Section is fully responsive on mobile, tablet, and desktop"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "In `frontend/src/pages/Home.tsx`, import the new `WhyVerdraExists` component and insert it between `ShowcaseCards` and `ContributeSection`. The final top-to-bottom render order must be: HeroSection, ShowcaseCards, WhyVerdraExists, ContributeSection, LifeCycleSection, BenefitsSection, ExpansionVisionSection.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Add a new section to the website between the HOME page and the LIFE CYCLE page"
+        ]
+      },
+      "acceptanceCriteria": [
+        "WhyVerdraExists is imported in Home.tsx",
+        "WhyVerdraExists renders between ShowcaseCards and ContributeSection",
+        "All other sections remain in their current order: ContributeSection, LifeCycleSection, BenefitsSection, ExpansionVisionSection"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Add a nav link for the 'Why VerdRa Exists' section in `frontend/src/components/Navigation.tsx`. The link label should be 'Why VerdRa' and it should smooth-scroll to the WhyVerdraExists section using the same pattern as existing nav links. It must appear between 'Home' and 'Life Cycle' in the nav link order. Apply the same green glow hover effect and underline animation as all other nav links.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Add a new section to the website between the HOME page and the LIFE CYCLE page"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation includes a 'Why VerdRa' link that smooth-scrolls to the WhyVerdraExists section",
+        "The link appears between 'Home' and 'Life Cycle' in the nav order",
+        "The link has the same green glow hover and underline animation as other nav links",
+        "Link is included in mobile hamburger menu drawer as well"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Render the newly generated 'Our Purpose' cinematic environmental image (`why-verdra-purpose.dim_900x600.png`) as a static asset in the `WhyVerdraExists` component's split layout section. The image must be loaded from `frontend/public/assets/generated/why-verdra-purpose.dim_900x600.png` and displayed with rounded corners, a subtle green glow border, and a smooth scroll-reveal fade-in.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Generate a powerful environmental image showing: A child standing on a street looking at a tree being planted. Or A transformation scene from barren street to green corridor."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Image renders from frontend/public/assets/generated/why-verdra-purpose.dim_900x600.png",
+        "Image appears in the split-layout 'Our Purpose' sub-section",
+        "Image has rounded corners and a subtle green glow border matching VERDRA design",
+        "Image fades in on scroll using useScrollReveal"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files listed in frontend.immutablePaths",
+    "All animations must be minimal, slow, and refined — no flashy or rapid effects",
+    "Design must strictly follow the existing VERDRA design system (color palette, typography, glassmorphism)",
+    "The generated image must be served as a static asset from frontend/public/assets/generated/, not through the backend"
+  ],
+  "nonGoals": [
+    "Adding any backend functionality or data persistence",
+    "Creating a separate page route for 'Why VerdRa Exists' — it remains a section on the Home page",
+    "Modifying any existing section components outside of Navigation.tsx and Home.tsx",
+    "Adding payment or interactive form functionality"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Cinematic, high-quality, realistic environmental photograph showing a child standing on a barren urban street watching a tree being planted by workers, warm golden hour light, soft bokeh background with hints of green, emotional and hopeful tone, premium editorial style, no stock-photo feel (why-verdra-purpose.dim_900x600.png)"
+    ],
+    "edits": []
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 13,
+  "summary": "Multi-page premium website for VERDRA, an environmental urban greening initiative. Features 5 pages: Home (cinematic hero, animated greenery), Life Cycle (Dwarf Gulmohar 6-stage display), Contribution (tree sponsorship at Rs.2000, Tirupati-focused, payment not yet active), Contributor Benefits (nameplate, geo-tag, certificate, etc.), and Expansion Vision (AP map → India map storytelling). Design is ultra-premium, minimalistic, glassmorphism with green color palette, Montserrat/Poppins fonts, smooth animations, and parallax effects.",
+  "architectural_notes": [
+    "Color palette: Deep Forest Green #0F3D2E, Emerald Green #1E7F4F, Leaf Green #4CAF50, Earth Brown #6B4F2A, Warm Beige #F5F1E8",
+    "Fonts: Montserrat (headings), Poppins (body) — load via Google Fonts",
+    "Design language: glassmorphism, soft shadows, green glow highlights, parallax scrolling, scroll-reveal animations",
+    "No active payment functionality — contribution button is placeholder only"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Cinematic, high-quality, realistic environmental photograph showing a child standing on a barren urban street watching a tree being planted by workers, warm golden hour light, soft bokeh background with hints of green, emotional and hopeful tone, premium editorial style, no stock-photo feel (why-verdra-purpose.dim_900x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-implement-a-sticky-glassmorphism-navigation-bar-with-a-semi-transparent-frosted-glass-background-the-verdra-animated-logo-on-the-left-and-nav-links-home-life-cycle-contribute-benefits-mission-expansion-vision-each-link-should-have-a-subtle-green-glow-hover-effect-and-smooth-underline-animation-on-mobile-collapse-into-a-hamburger-menu-with-animated-slide-in-drawer",
+      "title": "Implement a sticky glassmorphism navigation bar with a semi-transparent frosted glass background, the VERDRA animated logo on the left, and nav links: Home, Life Cycle, Contribute, Benefits, Mission, Expansion Vision. Each link should have a subtle green glow hover effect and smooth underline animation. On mobile, collapse into a hamburger menu with animated slide-in drawer.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-home-page-hero-section-with-a-full-viewport-cinematic-animated-background-featuring-floating-leaves-soft-green-light-rays-and-subtle-parallax-depth-layers-using-css-canvas-animations-overlay-the-headline-rooted-in-purpose-connected-by-vision-in-montserrat-bold-and-subheadline-transforming-streets-into-living-green-corridors-one-tree-at-a-time-in-poppins-both-with-smooth-fade-in-and-stagger-entry-animations-on-load",
+      "title": "Build the Home page hero section with a full-viewport cinematic animated background featuring floating leaves, soft green light rays, and subtle parallax depth layers using CSS/canvas animations. Overlay the headline 'Rooted in Purpose. Connected by Vision.' in Montserrat Bold and subheadline 'Transforming streets into living green corridors — one tree at a time.' in Poppins, both with smooth fade-in and stagger entry animations on load.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-below-the-hero-on-the-home-page-add-three-cinematic-image-showcase-cards-displaying-generated-environmental-images-urban-street-greening-people-engaging-with-nature-environmental-transformation-each-card-has-a-short-inspirational-tagline-overlaid-at-the-bottom-with-a-frosted-glass-pill-label-cards-animate-in-on-scroll-with-a-smooth-reveal-effect",
+      "title": "Below the hero on the Home page, add three cinematic image showcase cards displaying generated environmental images (urban street greening, people engaging with nature, environmental transformation). Each card has a short inspirational tagline overlaid at the bottom with a frosted glass pill label. Cards animate in on scroll with a smooth reveal effect.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-life-cycle-page-section-displaying-six-stages-of-the-dwarf-gulmohar-tree-using-the-six-generated-life-cycle-stage-images-arrange-them-in-a-horizontal-scrolling-row-on-desktop-and-a-2-column-grid-on-mobile-under-each-image-show-the-stage-name-and-a-one-line-description-add-subtle-hover-scale-animation-on-each-stage-card-descriptions-seed-a-tiny-seed-holds-the-promise-of-a-mighty-tree-sprouting-seedling-the-first-green-shoots-break-through-the-soil-young-sapling-roots-deepen-as-the-sapling-reaches-for-light-growing-plant-leaves-unfurl-drawing-life-from-sun-and-rain-maturing-tree-branches-spread-wide-providing-shade-and-shelter-fully-grown-flowering-tree-vibrant-blooms-crown-the-tree-in-full-glory",
+      "title": "Build the Life Cycle page section displaying six stages of the Dwarf Gulmohar tree using the six generated life-cycle stage images. Arrange them in a horizontal scrolling row on desktop and a 2-column grid on mobile. Under each image show the stage name and a one-line description. Add subtle hover scale animation on each stage card. Descriptions: Seed — 'A tiny seed holds the promise of a mighty tree.'; Sprouting Seedling — 'The first green shoots break through the soil.'; Young Sapling — 'Roots deepen as the sapling reaches for light.'; Growing Plant — 'Leaves unfurl, drawing life from sun and rain.'; Maturing Tree — 'Branches spread wide, providing shade and shelter.'; Fully Grown Flowering Tree — 'Vibrant blooms crown the tree in full glory.'",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-contribution-page-section-with-headline-adopt-a-tree-build-a-greener-future-in-montserrat-bold-include-a-premium-glassmorphism-contribution-card-explaining-the-rs-2000-tree-sponsorship-starting-in-tirupati-with-a-simple-3-step-process-visual-sponsor-plant-grow-add-a-styled-cta-button-labeled-contributions-opening-soon-that-is-visually-prominent-but-non-functional-disabled-cursor-not-allowed-with-a-tooltip-or-note-stating-payment-functionality-coming-soon",
+      "title": "Build the Contribution page section with headline 'Adopt a Tree. Build a Greener Future.' in Montserrat Bold. Include a premium glassmorphism contribution card explaining the Rs.2000 tree sponsorship starting in Tirupati, with a simple 3-step process visual (Sponsor → Plant → Grow). Add a styled CTA button labeled 'Contributions Opening Soon' that is visually prominent but non-functional (disabled/cursor-not-allowed), with a tooltip or note stating 'Payment functionality coming soon.'",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-contributor-benefits-page-section-with-five-icon-cards-in-an-elegant-grid-layout-each-card-has-a-minimal-icon-bold-short-title-and-one-line-description-for-engraved-donor-nameplate-your-name-etched-permanently-on-your-tree-geo-tag-location-tracking-find-your-tree-on-the-map-anytime-visit-anytime-walk-up-to-your-tree-and-watch-it-grow-contribution-certificate-official-certificate-of-your-green-legacy-digital-growth-updates-receive-regular-updates-on-your-tree-s-journey-below-the-cards-display-a-visually-impactful-mission-statement-verdra-aims-to-plant-1-lakh-trees-by-the-end-of-2026-with-large-cinematic-typography-and-a-glowing-green-accent",
+      "title": "Build the Contributor Benefits page section with five icon cards in an elegant grid layout. Each card has a minimal icon, bold short title, and one-line description for: Engraved Donor Nameplate ('Your name etched permanently on your tree'), Geo-Tag Location Tracking ('Find your tree on the map anytime'), Visit Anytime ('Walk up to your tree and watch it grow'), Contribution Certificate ('Official certificate of your green legacy'), Digital Growth Updates ('Receive regular updates on your tree's journey'). Below the cards, display a visually impactful mission statement: 'VerdRa aims to plant 1 lakh trees by the end of 2026.' with large cinematic typography and a glowing green accent.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-expansion-vision-page-section-as-a-vertical-storytelling-scroll-sequence-first-panel-generated-andhra-pradesh-map-image-filled-with-green-tree-visuals-with-the-text-starting-in-andhra-pradesh-overlaid-in-cinematic-large-type-second-panel-generated-india-map-image-filled-with-greenery-with-the-text-aiming-to-green-the-entire-nation-both-panels-use-scroll-triggered-reveal-animations-fade-slide-up-include-smooth-transitions-between-panels-and-parallax-depth-on-the-map-images",
+      "title": "Build the Expansion Vision page section as a vertical storytelling scroll sequence. First panel: generated Andhra Pradesh map image filled with green tree visuals, with the text 'Starting in Andhra Pradesh' overlaid in cinematic large type. Second panel: generated India map image filled with greenery, with the text 'Aiming to green the entire nation.' Both panels use scroll-triggered reveal animations (fade + slide up). Include smooth transitions between panels and parallax depth on the map images.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-the-full-design-system-consistently-across-all-pages-color-palette-0f3d2e-deep-forest-green-1e7f4f-emerald-green-4caf50-leaf-green-6b4f2a-earth-brown-f5f1e8-warm-beige-montserrat-bold-semibold-for-all-headings-poppins-regular-medium-for-body-text-glassmorphism-panels-with-soft-shadows-subtle-green-glow-highlights-and-smooth-css-transitions-micro-interactions-site-wide-ensure-all-sections-are-fully-responsive-for-mobile-tablet-and-desktop",
+      "title": "Apply the full design system consistently across all pages: color palette (#0F3D2E deep forest green, #1E7F4F emerald green, #4CAF50 leaf green, #6B4F2A earth brown, #F5F1E8 warm beige), Montserrat Bold/SemiBold for all headings, Poppins Regular/Medium for body text, glassmorphism panels with soft shadows, subtle green glow highlights, and smooth CSS transitions/micro-interactions site-wide. Ensure all sections are fully responsive for mobile, tablet, and desktop.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-static-image-assets-from-frontend-public-assets-generated-across-the-appropriate-page-sections-hero-background-home-showcase-cards-3-images-life-cycle-stage-images-6-images-andhra-pradesh-map-and-india-map",
+      "title": "Render all generated static image assets from frontend/public/assets/generated/ across the appropriate page sections: hero background, home showcase cards (3 images), life cycle stage images (6 images), Andhra Pradesh map, and India map.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-change-the-headline-and-subheadline-fonts-in-the-home-page-hero-section-herosection-tsx-replace-the-current-montserrat-bold-headline-font-with-a-new-visually-distinct-premium-serif-or-display-font-e-g-playfair-display-or-similar-cinematic-typeface-and-update-the-subheadline-font-accordingly-to-complement-it-load-the-new-font-s-via-google-fonts-in-frontend-index-html-and-register-them-in-tailwind-config-js-ensure-the-change-is-applied-only-to-the-main-hero-text-headline-rooted-in-purpose-connected-by-vision-and-subheadline-transforming-streets-into-living-green-corridors-one-tree-at-a-time-while-keeping-all-other-section-headings-and-body-text-unchanged",
+      "title": "Change the headline and subheadline fonts in the Home page hero section (HeroSection.tsx). Replace the current Montserrat Bold headline font with a new, visually distinct premium serif or display font (e.g., Playfair Display or similar cinematic typeface), and update the subheadline font accordingly to complement it. Load the new font(s) via Google Fonts in frontend/index.html and register them in tailwind.config.js. Ensure the change is applied only to the main hero text (headline 'Rooted in Purpose. Connected by Vision.' and subheadline 'Transforming streets into living green corridors — one tree at a time.') while keeping all other section headings and body text unchanged.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-showcasecards-tsx-add-a-small-decorative-png-image-of-a-fully-blossomed-tree-rendered-from-frontend-public-assets-generated-blossomed-tree-dim-200x200-png-positioned-above-the-urban-greening-initiative-showcase-card-section-the-image-should-be-small-sized-centered-or-tastefully-placed-and-complement-the-existing-green-design-aesthetic-without-disrupting-the-card-layout-or-scroll-reveal-animations",
+      "title": "In ShowcaseCards.tsx, add a small decorative PNG image of a fully blossomed tree (rendered from frontend/public/assets/generated/blossomed-tree.dim_200x200.png) positioned above the urban greening initiative showcase card section. The image should be small-sized, centered or tastefully placed, and complement the existing green design aesthetic without disrupting the card layout or scroll-reveal animations.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-showcasecards-tsx-remove-the-decorative-blossomed-tree-png-image-previously-added-above-the-urban-greening-showcase-card-section-and-restore-the-section-to-its-prior-state-without-the-image-element",
+      "title": "In ShowcaseCards.tsx, remove the decorative blossomed tree PNG image (previously added above the urban greening showcase card section) and restore the section to its prior state without the image element.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-frontend-src-pages-home-tsx-swap-the-render-order-of-contributesection-take-action-and-lifecyclesection-nature-s-journey-so-that-contributesection-appears-above-lifecyclesection-in-the-page-composition-the-final-top-to-bottom-order-should-be-herosection-showcasecards-contributesection-lifecyclesection-benefitssection-expansionvisionsection",
+      "title": "In frontend/src/pages/Home.tsx, swap the render order of ContributeSection (TAKE ACTION) and LifeCycleSection (NATURE'S JOURNEY) so that ContributeSection appears above LifeCycleSection in the page composition. The final top-to-bottom order should be: HeroSection, ShowcaseCards, ContributeSection, LifeCycleSection, BenefitsSection, ExpansionVisionSection.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-new-frontend-component-file-frontend-src-components-whyverdraexists-tsx-that-implements-the-full-why-verdra-exists-section-with-four-visual-blocks-1-a-bold-centered-headline-cities-are-growing-nature-is-shrinking-followed-by-a-powerful-short-paragraph-covering-urban-expansion-loss-of-shade-rising-heat-pollution-and-citizens-lacking-a-structured-platform-2-an-our-purpose-sub-section-using-a-split-layout-the-generated-cinematic-environmental-image-on-one-side-and-four-bullet-style-purpose-statements-on-the-other-verdra-exists-to-reconnect-people-with-their-streets-to-restore-shade-beauty-and-ecological-balance-to-make-urban-greening-a-shared-responsibility-to-turn-pride-into-participation-3-a-more-than-just-planting-trees-block-with-three-glassmorphism-icon-cards-community-ownership-every-tree-connects-a-citizen-to-their-city-climate-responsibility-reducing-heat-and-improving-air-quality-legacy-creation-trees-planted-today-will-stand-for-decades-each-with-subtle-hover-lift-animations-4-a-centered-cinematic-closing-statement-this-is-not-a-project-this-is-a-generational-commitment-with-a-stagger-reveal-typography-animation-the-section-background-must-feature-a-slow-animated-greenery-gradient-with-soft-light-rays-and-floating-leaf-particle-effects-matching-the-existing-herosection-animation-style-all-scroll-triggered-reveal-animations-must-use-the-existing-usescrollreveal-hook-apply-the-full-verdra-design-system-deep-forest-green-palette-montserrat-bold-semibold-headings-poppins-body-text-glassmorphism-panels-with-soft-shadows-and-green-glow-highlights-and-elegant-spacing-consistent-with-the-rest-of-the-site",
+      "title": "Create a new frontend component file `frontend/src/components/WhyVerdraExists.tsx` that implements the full 'Why VerdRa Exists' section with four visual blocks: (1) A bold centered headline 'Cities Are Growing. Nature Is Shrinking.' followed by a powerful short paragraph covering urban expansion, loss of shade, rising heat, pollution, and citizens lacking a structured platform; (2) An 'Our Purpose' sub-section using a split layout — the generated cinematic environmental image on one side and four bullet-style purpose statements on the other ('VerdRa exists to reconnect people with their streets.', 'To restore shade, beauty, and ecological balance.', 'To make urban greening a shared responsibility.', 'To turn pride into participation.'); (3) A 'More Than Just Planting Trees' block with three glassmorphism icon cards — Community Ownership ('Every tree connects a citizen to their city.'), Climate Responsibility ('Reducing heat and improving air quality.'), Legacy Creation ('Trees planted today will stand for decades.') — each with subtle hover lift animations; (4) A centered cinematic closing statement 'This is not a project. / This is a generational commitment.' with a stagger/reveal typography animation. The section background must feature a slow animated greenery gradient with soft light rays and floating leaf particle effects matching the existing HeroSection animation style. All scroll-triggered reveal animations must use the existing `useScrollReveal` hook. Apply the full VERDRA design system: deep forest green palette, Montserrat Bold/SemiBold headings, Poppins body text, glassmorphism panels with soft shadows and green glow highlights, and elegant spacing consistent with the rest of the site.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-frontend-src-pages-home-tsx-import-the-new-whyverdraexists-component-and-insert-it-between-showcasecards-and-contributesection-the-final-top-to-bottom-render-order-must-be-herosection-showcasecards-whyverdraexists-contributesection-lifecyclesection-benefitssection-expansionvisionsection",
+      "title": "In `frontend/src/pages/Home.tsx`, import the new `WhyVerdraExists` component and insert it between `ShowcaseCards` and `ContributeSection`. The final top-to-bottom render order must be: HeroSection, ShowcaseCards, WhyVerdraExists, ContributeSection, LifeCycleSection, BenefitsSection, ExpansionVisionSection.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-nav-link-for-the-why-verdra-exists-section-in-frontend-src-components-navigation-tsx-the-link-label-should-be-why-verdra-and-it-should-smooth-scroll-to-the-whyverdraexists-section-using-the-same-pattern-as-existing-nav-links-it-must-appear-between-home-and-life-cycle-in-the-nav-link-order-apply-the-same-green-glow-hover-effect-and-underline-animation-as-all-other-nav-links",
+      "title": "Add a nav link for the 'Why VerdRa Exists' section in `frontend/src/components/Navigation.tsx`. The link label should be 'Why VerdRa' and it should smooth-scroll to the WhyVerdraExists section using the same pattern as existing nav links. It must appear between 'Home' and 'Life Cycle' in the nav link order. Apply the same green glow hover effect and underline animation as all other nav links.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-newly-generated-our-purpose-cinematic-environmental-image-why-verdra-purpose-dim-900x600-png-as-a-static-asset-in-the-whyverdraexists-component-s-split-layout-section-the-image-must-be-loaded-from-frontend-public-assets-generated-why-verdra-purpose-dim-900x600-png-and-displayed-with-rounded-corners-a-subtle-green-glow-border-and-a-smooth-scroll-reveal-fade-in",
+      "title": "Render the newly generated 'Our Purpose' cinematic environmental image (`why-verdra-purpose.dim_900x600.png`) as a static asset in the `WhyVerdraExists` component's split layout section. The image must be loaded from `frontend/public/assets/generated/why-verdra-purpose.dim_900x600.png` and displayed with rounded corners, a subtle green glow border, and a smooth scroll-reveal fade-in.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with cinematic animated greenery hero section and inspirational tagline imagery",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Life Cycle page showing 6 stages of Dwarf Gulmohar tree with images and descriptions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Contribution page with tree sponsorship card (Rs.2000, Tirupati) and 'Contributions Opening Soon' CTA",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Contributor Benefits page with icon cards (nameplate, geo-tag, certificate, etc.) and 1 lakh trees by 2026 mission statement",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Expansion Vision page with AP map and India map storytelling with scroll reveal animations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Sticky glassmorphism navbar with links to all 6 sections and animated logo",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Change the main page text font",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Swap positions of TAKE ACTION section and NATURE'S JOURNEY section so TAKE ACTION appears above NATURE'S JOURNEY",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add 'Why VerdRa Exists' section between Home and Life Cycle with cinematic environmental storytelling, 'Our Purpose' split layout, 'More Than Just Planting Trees' icon cards, animated background, and closing generational commitment statement",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "VERDRA",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
