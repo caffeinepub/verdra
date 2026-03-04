@@ -417,7 +417,7 @@ export default function WhyVerdraExists() {
               }}
             >
               <img
-                src="/assets/generated/why-verdra-purpose.dim_900x600.png"
+                src="/assets/generated/why-verdra-purpose.dim_900x600.jpg"
                 alt="A child watching a tree being planted — the future of urban greening"
                 className="w-full h-auto object-cover"
                 style={{ filter: "brightness(0.92) saturate(1.1)" }}

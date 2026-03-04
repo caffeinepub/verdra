@@ -2,19 +2,22 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
 
 const stages = [
   {
-    image: "/assets/generated/verdra-lifecycle-1-seed.dim_400x400.png",
+    image:
+      "/assets/generated/verdra-lifecycle-1-seed-transparent.dim_400x400.png",
     stage: "Seed",
     number: "01",
     description: "A tiny seed holds the promise of a mighty tree.",
   },
   {
-    image: "/assets/generated/verdra-lifecycle-2-sprout.dim_400x400.png",
+    image:
+      "/assets/generated/verdra-lifecycle-2-sprout-transparent.dim_400x400.png",
     stage: "Sprouting Seedling",
     number: "02",
     description: "The first green shoots break through the soil.",
   },
   {
-    image: "/assets/generated/verdra-lifecycle-3-sapling.dim_400x400.png",
+    image:
+      "/assets/generated/verdra-lifecycle-3-sapling-transparent.dim_400x400.png",
     stage: "Young Sapling",
     number: "03",
     description: "Roots deepen as the sapling reaches for light.",
