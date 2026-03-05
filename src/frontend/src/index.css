@@ -294,6 +294,22 @@
     animation: bounce-subtle 2.5s ease-in-out infinite;
   }
 
+  @keyframes light-ray {
+    0%,
+    100% {
+      opacity: 0.04;
+      transform: skewX(var(--skew, 0deg)) scaleY(1);
+    }
+    50% {
+      opacity: 0.12;
+      transform: skewX(var(--skew, 0deg)) scaleY(1.05);
+    }
+  }
+
+  .animate-light-ray {
+    animation: light-ray 6s ease-in-out infinite;
+  }
+
   .animate-pulse-glow {
     animation: pulse-glow 3s ease-in-out infinite;
   }
